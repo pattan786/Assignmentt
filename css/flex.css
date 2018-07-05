@@ -170,6 +170,7 @@ body{
 @media(max-width:930px){
     .box-section{
         padding: 10px;
+        padding-top: 140px;
     }
 }
 .box-body{
