@@ -6,10 +6,10 @@ body{
 }
 .ul {
     float: right;
-    word-spacing: 30px;
+    word-spacing: 80px;
     padding-top:25px;
     text-decoration: none;
-    padding-right: 90px;
+    padding-right: 120px;
 }
 .li {
     padding-top: 20px;

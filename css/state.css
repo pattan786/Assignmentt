@@ -1,20 +1,41 @@
 a .box-footer-1:hover{
     background: #848484;
 }
-@media(max-width:931px){   
-    .box-top ul{
+@media(max-width:411px){
+    .box-top .ul{
         display: flex;
-        display: none;
+        flex-direction: column;
+        
+        margin-top: 0;
+    }
+    .box-top .ul .li{
+       text-align: center;
+       padding-top: 0px;
+    }
+    .box-section #bs, #sb {
+    padding-top: 30px;
+    }
+}
+@media(max-width:931px){   
+    .box-top .ul{
+        
+        padding-top: 0;
+        word-spacing: 65px;
+        float: none;
+        
+        margin-left: 18%;
     }
     .box-top img{
         display: flex;
         margin: auto;
     }   
 }
+
 @media(max-width:931px){ 
     .box-section h2,#sb{
         text-align: center;
         padding-right: 10px;
+        padding-top: 20px;
     }   
 }
 @media(max-width:700px){
